@@ -1,0 +1,83 @@
+#container {
+    height: 500px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+path .fill{
+  background-color: red;
+}
+path style{
+  background-color: red !important;
+}
+path {
+    fill:#e6f6d4;
+    transition: 0.3s;
+}
+path:hover{
+  fill: white;
+}
+path text {
+  fill: white;
+}
+/* path #highcharts-owtq0vh-29{
+  display: none;
+} */
+.stroke{
+  display: none !important;
+}
+.highcharts-credits{
+  display: none;
+}
+.cont{
+  position: relative;
+  background-color: antiquewhite;
+}
+.icon {
+    position: relative;
+    top: -228px;
+    left: 49%;
+    color: #2ac0eb;
+    font-size: 17px;
+}
+.bord{
+  width: 48px;
+    height: 28px;
+    background-color: #2ac0eb;
+    position: absolute;
+    top: 33%;
+    left: 58%;
+    left: 48%;
+    left: 50%;
+    color: #000;
+    border-radius: 4px;
+}
+.borredd{
+ width: 45px;
+    height: 28px;
+    border-radius: 4px;
+    background-color: red;
+    position: absolute;
+    left: 43%;
+    top: 17%;
+}
+.iconu{
+ position: absolute;
+    top: 24%;
+    left: 45%;
+    color: red;
+    font-size: 17px;
+}
+
+.highcharts-axis-labels {
+  display: none;
+}
+.highcharts-legend-item ,.highcharts-button-symbol,.highcharts-button-box{
+  display: none;
+}
